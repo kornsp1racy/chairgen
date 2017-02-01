@@ -25,7 +25,7 @@ public class SeatSpawner : MonoBehaviour {
             spawnedSeat.transform.parent = transform;
             spawnedSeat.transform.localPosition = new Vector3(x, 0, z);
         }
-	}
+    }
 	
 	// Update is called once per frame
 	void Update () {
